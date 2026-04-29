@@ -1,0 +1,106 @@
+body {
+    background-color: rgb(16, 37, 48);
+    background-image: url('darkforest.jpg'); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    height: 98vh; 
+}
+
+p { 
+    font-family: 'Cormorant Garamond', serif;
+ }
+
+#leonkennedy {
+    position: absolute;
+    bottom: 15%;
+    left: 42%;  
+    width: 200px;
+    opacity: 90%; 
+}
+
+#scaryguy {
+    display: flex;
+    position: absolute;
+    opacity: 85%;
+    width: 300px;
+    right: 60%;
+    bottom: 20%;
+}
+
+#ghostyguy {
+    display: flex;
+    position: absolute;
+    opacity: 30%;
+    width: 300px;
+    left: 500px;
+    bottom: 400px;
+}
+
+.main-zone {
+    display: flex;
+    gap: 30px;
+}
+
+.description p {
+    color: #e6f0f2;
+    opacity: 100%;
+}
+
+.main-zone {
+    display: flex;
+    font-size: 120%;
+    line-height: 1.5;
+    opacity: 80%;
+    background: #0b1a1f;
+    border-radius: 12px;
+    border: 2px solid #182719;
+    padding: 10px;
+}
+
+#hand-button {
+    display: flex;
+    position: absolute;
+    right: 65%;
+    bottom: 18%;
+}
+
+#leon-button {
+    display: flex;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;  
+}
+
+#ghost-button {
+    display: flex;
+    position: absolute;
+    opacity: 30%;
+    left: 500px;
+    bottom: 550px;
+}
+
+#output1 {
+    display: flex;
+    position: absolute;
+    right: 73%;
+    bottom: 25%;
+    color: #e6f0f2;
+}
+
+#output2 {
+    display: flex;
+    position: absolute;
+    bottom: 60%;
+    left: 53.5%;  
+    color: #e6f0f2;
+}
+
+#output3 {
+    display: flex;
+    position: absolute;
+    left: 490px;
+    bottom: 500px;
+    color: #e6f0f2;
+    opacity: 30%;
+}

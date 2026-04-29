@@ -25,4 +25,3 @@ $("#needy-button").click(function () {
     console.log(currentMood);
 
 });
-
